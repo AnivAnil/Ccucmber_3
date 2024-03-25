@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "user shoud be translink homepage",
+        "description": "",
+        "id": "user-shoud-open-translink-website;user-shoud-be-translink-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8451976100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user shoud select start journey",
+            "match": {
+              "location": "Travels.user_shoud_select_start_journey()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1455519500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user shoud select the end  journey",
+            "match": {
+              "location": "Travels.user_shoud_select_the_end_journey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29299,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user shoud select the date of journey",
+            "match": {
+              "location": "Travels.user_shoud_select_the_date_of_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser shoud close",
+            "match": {
+              "location": "Travels.browser_shoud_close()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "user shoud open translink website",
+    "description": "",
+    "id": "user-shoud-open-translink-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/travels.feature",
+    "tags": []
+  }
+]
